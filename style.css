@@ -1,0 +1,79 @@
+body{
+	background-image: url("images/bg-desktop.svg");
+	background-color:  hsl(257, 40%, 49%);
+
+}
+.logo{
+	margin-top: 40px;
+}
+.main
+{
+	margin: 0px 40px 0px 40px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+@media (max-width: 966px) {
+	*{
+		margin: 0px;
+		/*padding: 0px;*/
+	}
+ 	.row{
+ 		flex-direction: column;
+ 		overflow-x: hidden;
+ 		margin-top: 50px;
+ 		text-align: center;
+ 	}
+ 	.imgcol img{
+ 		width: 110%;
+ 	}
+ 	.logo img{
+ 		margin-right: 100px;
+ 		width: 100px;
+ 	}
+ 	.bodycol{
+ 		margin-top: 40px;
+ 		padding-right: 4px;
+ 	}
+ 	.bodycol h1{
+ 		font-size: 23px;
+ 		font-weight: 400;
+ 		width: 103%;
+ 		margin-bottom: 10px;
+ 		/*margin: 0px 10px 10px;*/
+ 	}
+ 	.bodycol p{
+ 		width: 100%;
+ 		justify-content: center;
+ 	}
+ 	
+}
+/*.row .bodycol{
+	margin-left: 50px;
+}*/
+.heading{
+	width: 450px;
+	font-size: 40px;
+	font-family: 'Poppins';
+
+}
+.para{
+	width: 460px;
+	font-family: 'Open Sans';
+	padding: 0px 0px 20px 0px;
+}
+.btn{
+	background-color: white;
+	border: none;
+	padding: 13px 60px 13px 60px ;
+	text-decoration: none;
+	border-radius: 50px;
+	color: gray;
+}
+.icons
+{
+	display: flex;
+	justify-content: flex-end;
+	
+}

@@ -1,0 +1,21 @@
+body{
+	background-color: hsl(0, 100%, 50%);
+	overflow-x: hidden;
+}
+img{
+	width: 100%;
+}
+.main
+{
+	display: flex;
+	flex-direction: row;
+}
+@media (max-width: 966px) {
+  .main{
+  	flex-direction: column;
+  }
+  img{
+  	width: 100%;
+  	overflow-x: hidden;
+  }
+}
